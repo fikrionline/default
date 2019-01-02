@@ -1,4 +1,5 @@
 #!/bin/bash
+chmod +x ./renew.sh
 rm source -rf
 mkdir source
 rm result -rf
