@@ -1,0 +1,7 @@
+domains = d.com
+rsa-key-size = 2048
+server = https://acme-v01.api.letsencrypt.org/directory
+email = removalrequestwebmaster@gmail.com
+text = True
+authenticator = webroot
+webroot-path = /var/www/html/d.com/
