@@ -11,5 +11,7 @@ cd /var/www/html/default/lets/
 php get-config.php
 rm /etc/letsencrypt/configs/* -rf
 cp result/* /etc/letsencrypt/configs/
-chmod +x ./letsencrypt-renewal-global.sh
-./letsencrypt-renewal-global.sh
+mkdir -p /etc/letsencrypt2/configs/
+cp result/* /etc/letsencrypt2/configs/
+#chmod +x ./letsencrypt-renewal-global.sh
+#./letsencrypt-renewal-global.sh
